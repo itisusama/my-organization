@@ -1,6 +1,10 @@
 import React from 'react'
 import Button from "../components/navbar/components/Button";
 import HeroImage from "../assets/Hero.png";
+import Cards from '../components/Card';
+import AboutUs from '../components/About';
+import HomePortfolio from '../components/HomePortfolio';
+import Contact from '../components/HomeContact';
 
 const Home = () => {
   return (
@@ -23,6 +27,10 @@ const Home = () => {
         </div>
       </div>
     </section>
+    <Cards />
+    <AboutUs/>
+    <HomePortfolio/>
+    <Contact/>
     </>
   )
 }
