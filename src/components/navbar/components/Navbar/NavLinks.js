@@ -8,10 +8,10 @@ const NavLinks = () => {
   return (
     <>
       {links.map((link) => (
-        <div>
+        <div className="mt-[10px]">
           <div className="px-3 text-left md:cursor-pointer group">
-            <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
+            <h6
+              className="py-2 flex justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -28,7 +28,7 @@ const NavLinks = () => {
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
                 <ion-icon name="chevron-down"></ion-icon>
               </span>
-            </h1>
+            </h6>
             {link.submenu && (
               <div>
                 <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
@@ -49,6 +49,7 @@ const NavLinks = () => {
                             <Link
                               to={slink.link}
                               className="hover:text-primary"
+                              style={{color:"black", textDecoration:"none"}}
                             >
                               {slink.name}
                             </Link>
