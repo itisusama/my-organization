@@ -1,20 +1,23 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./Mylinks";
+import { useNavigate } from 'react-router-dom';
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
+  const navigate = useNavigate();
   return (
     <>
       {links.map((link) => (
         <div className="mt-[10px]">
           <div className="px-3 text-left md:cursor-pointer group">
-            <h6
+              <h6
               className="py-2 flex justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
+                navigate("/about"); // Navigates to the "/about" page on click
               }}
             >
               {link.name}

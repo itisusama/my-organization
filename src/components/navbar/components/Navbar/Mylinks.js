@@ -6,7 +6,7 @@ export const links = [
         {
           Head: "",
           sublink: [
-            { name: "About Us", link: "/" },
+            { name: "About Us", link: "/about" },
           ],
         },
         {
@@ -35,54 +35,15 @@ export const links = [
       submenu: true,
       sublinks: [
         {
-          Head: "Topwear",
+          Head: "Bespoke Software Development",
           sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+            { name: "CRM Development", link: "/" },
           ],
         },
         {
-          Head: "Bottomwear",
+          Head: "Appication Development",
           sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "innerwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-  
-        {
-          Head: "sleepwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "footwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+            { name: "Web Application Development", link: "/" },
           ],
         },
       ],
@@ -92,54 +53,21 @@ export const links = [
       submenu: true,
       sublinks: [
         {
-          Head: "Topwear",
+          Head: "",
           sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+            { name: "Hourly", link: "/" },
           ],
         },
         {
-          Head: "Bottomwear",
+          Head: "",
           sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+            { name: "Monthly", link: "/" },
           ],
         },
         {
-          Head: "innerwear",
+          Head: "",
           sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-  
-        {
-          Head: "sleepwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-          ],
-        },
-        {
-          Head: "footwear",
-          sublink: [
-            { name: "T-shirt", link: "/" },
-            { name: "Casual shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
-            { name: "formal shirts", link: "/" },
+            { name: "Yearly", link: "/" },
           ],
         },
       ],
